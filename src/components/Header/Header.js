@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
 	return (
 		<header className="Header">
-        <h1>PokeAPI</h1>
+        <h1>PokeDEX</h1>
       </header>
 	);
   }

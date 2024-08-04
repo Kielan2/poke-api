@@ -1,4 +1,74 @@
-h1 {
-	color: red;
+body {
+	background: red;
+	font-family: pokeSolid;
+	display: flex;
+	justify-content: center;
 }
+
+h1 {
+	color: blue;
+	font-size: 2vw;
+}
+
+img {
+	background: black;
+	border: 3px solid white;
+	min-width: 15vw
+}
+
+h2 {
+	background: rgb(20, 19, 19);
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 2vw;
+	width: 100%;
+	color: gold;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.Container {
+	border: black 3px solid;
+	padding: 25px;
+}
+
+.Pokedex {
+	display: flex;
+	gap: 50px;
+	padding: 50px 0;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.Rightside {
+	background: limegreen;
+	padding: 20px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+ul {
+	column-count: 2;
+}
+
+form {
+	float: right;
+}
+
+h3 {
+	font-size: 1.5vw;
+}
+
+p, li {
+	font-size: 1.25vw;
+}
+
+.Error {
+	margin-top: 20px;
+}
+
+
+
+
 
